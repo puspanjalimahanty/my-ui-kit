@@ -1,16 +1,28 @@
-# My UI Kit - Frontend Assignment
+Front-End Assignment -UI Components
 
-## What
-Two React + TypeScript components:
-- `InputField` — flexible input with states, variants, sizes, accessibility.
-- `DataTable` — generic table with sorting, row selection, loading & empty states.
+ Tech Stack used to implement
+- React + TypeScript
+- TailwindCSS
+- Storybook
+- Vitest + Testing Library
 
-Built with: React, TypeScript, TailwindCSS, Storybook, Vitest.
+Components
 
-## Quick Start
-```bash
+1. InputField
+ Variants: filled, outlined, ghost
+ Sizes: sm, md, lg
+ States: disabled, invalid, loading
+ Features: label, helper, error message, clear button, password toggle
+ Accessibility: `aria-invalid`, `aria-describedby`
+
+2. DataTable
+Displays tabular data
+ Column sorting (asc/desc/none)
+ Row selection (single/multiple)
+ States: loading, empty
+ Accessibility: `aria-sort`, `aria-checked`
+
+ Installation
 npm install
-npm run dev         # run app
-npm run storybook   # run storybook
-npm run build-storybook # build storybook for deploy
-npm test
+npm run storybook   (to Run Storybook)
+npm run test        (to Run tests)
