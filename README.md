@@ -9,6 +9,7 @@ Front-End Assignment -UI Components
 Components
 
 1. InputField
+   
  Variants: filled, outlined, ghost
  Sizes: sm, md, lg
  States: disabled, invalid, loading
@@ -16,6 +17,7 @@ Components
  Accessibility: `aria-invalid`, `aria-describedby`
 
 2. DataTable
+
 Displays tabular data
  Column sorting (asc/desc/none)
  Row selection (single/multiple)
@@ -23,6 +25,8 @@ Displays tabular data
  Accessibility: `aria-sort`, `aria-checked`
 
  Installation
+
+ 
 npm install
 npm run storybook   (to Run Storybook)
 npm run test        (to Run tests)
